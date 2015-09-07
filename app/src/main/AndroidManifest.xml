@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matthewmoyer.scoreboard" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_scoreboard"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Scoreboard"
+            android:label="@string/title_activity_scoreboard" >
+        </activity>
+        <activity
+            android:name=".CurrentScore"
+            android:label="@string/title_activity_current_score" >
+        </activity>
+        <activity
+            android:name=".BacktoMainActivity"
+            android:label="@string/title_activity_backto_main" >
+        </activity>
+        <activity
+            android:name=".Activity3"
+            android:label="@string/title_activity_3" >
+        </activity>
+        <activity
+            android:name=".FourTeams"
+            android:label="@string/title_activity_four_teams" >
+        </activity>
+        <activity
+            android:name=".Activity4"
+            android:label="@string/title_activity_4" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Scoreboard</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scoreboard">Scoreboard</string>
+    <string name="title_activity_current_score">CurrentScore</string>
+    <string name="title_activity_backto_main">BacktoMainActivity</string>
+    <string name="title_activity_3">Activity3</string>
+    <string name="title_activity_four_teams">FourTeams</string>
+    <string name="title_activity_4">Activity4</string>
+</resources>
